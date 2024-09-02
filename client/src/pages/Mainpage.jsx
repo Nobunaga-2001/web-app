@@ -50,7 +50,7 @@ const Mainpage = () => {
       <img src={logo} alt="Logo" style={styles.logo} />
       <h1 style={styles.header}>Choose a Service</h1>
       <button
-        onClick={() => navigate('/loginuser')}
+        onClick={() => navigate('/control')}
         style={styles.button}
         onMouseOver={(e) => (e.currentTarget.style.backgroundColor = styles.buttonHover.backgroundColor)}
         onMouseOut={(e) => (e.currentTarget.style.backgroundColor = styles.button.backgroundColor)}
