@@ -1,0 +1,149 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  /* ImageComponent.css */
+.div1 {
+  grid-area: 2 / 5 / 3 / 8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem; /* This is used for text, so it won't affect the image */
+}
+
+.div1 img {
+  max-width: 90%; /* Ensures the image fits within the width of the div */
+  max-height: 90%; /* Ensures the image fits within the height of the div */
+  object-fit: contain; /* Ensures the image maintains its aspect ratio */
+  display: block; /* Removes any extra space below the image */
+}
+
+  
+  .div2 {
+    grid-area: 4 / 4 / 5 / 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem ;
+  }
+  
+  .div3 {
+    grid-area: 6 / 4 / 7 / 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .div4 {
+    grid-area: 6 / 6 / 7 / 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .div5 {
+    grid-area: 6 / 8 / 7 / 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .div6 {
+    grid-area: 8 / 3 / 9 / 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .div7 {
+    grid-area: 8 / 4 / 9 / 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .div8 {
+    grid-area: 10 / 3 / 11 / 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .div9 {
+    grid-area: 10 / 4 / 11 / 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .div10 {
+    grid-area: 11 / 4 / 12 / 9;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .locker-button1 {
+    width: 90px;
+    height: 90px;
+    font-size: 2.5rem;
+    text-align: center;
+    cursor: pointer;
+    background-color: green;
+    border-width: 1px;
+    border-radius: 10px;
+  }
+
+  .locker-button2 {
+    width: 90px;
+    height: 90px;
+    font-size: 2.5rem;
+    text-align: center;
+    cursor: pointer;
+    background-color: green;
+    border-width: 1px;
+    border-radius: 10px;
+  }
+
+  .locker-button3 {
+    width: 90px;
+    height: 90px;
+    font-size: 2.5rem;
+    text-align: center;
+    cursor: pointer;
+    background-color: green;
+    border-width: 1px;
+    border-radius: 10px;
+  }
+ 
+  
+  .square1 {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border: 1px solid #000;
+  }
+  .square2 {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid #000;
+  }
+  
+  
